@@ -5,12 +5,13 @@ import Link from 'next/link'
 import { usePathname } from "next/navigation";
 import { Bars3Icon, MoonIcon, SunIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { div } from "framer-motion/client";
+import { useTheme } from "../context/ThemeContext";
 
 
 const Navbar = () => {
   
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
-  const theme = "dark"
+  const {theme, toggleTheme} = useTheme()
 
   const pathName = usePathname()
   
@@ -28,7 +29,8 @@ const Navbar = () => {
   
   
   return (
-    <nav className="fixed w-full bg-dark/80 backdrop-blur-sm z-50">
+    <nav className="fixed bg-white/80 w-full dark:bg-dark/80 backdrop-blur-sm z-50 border-b 
+    border-gray-200 dark:border-gray-700 shadow-sm transition-colors">
        <div className="container max-w-7xl mx-auto px-4">
           {/* desktop menu */}
           <div className="flex items-center justify-between h-16">
@@ -46,7 +48,7 @@ const Navbar = () => {
                    )
                  })
                }
-               <button className="p-2 rounded-lg hover:bg-gray-100 text-primary dark:hover:bg-gray-800 transition-colors cursor-pointer">
+               <button onClick={toggleTheme} className="p-2 rounded-lg hover:bg-gray-100 dark:text-white hover:text-primary dark:hover:bg-gray-800 transition-colors cursor-pointer">
                  {
                    theme === "dark" ? (
                       <SunIcon className="w-5 h-5" />
@@ -81,7 +83,7 @@ const Navbar = () => {
                       ))
                     }
                     <div className="">
-                      <button className="flex items-center py-2 hover:text-primary transition-colors">
+                      <button onClick={toggleTheme} className="flex items-center py-2 hover:text-primary transition-colors">
                         {
                           theme === "dark" ? (
                               <><SunIcon className="w-5 h-5 mr-2" /> Light Mode</>
