@@ -60,9 +60,11 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
             <ul className="text-secondary space-y-2">
               <li>React / Angular</li>
+              <li>Redux Toolkit</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
               <li>Bootstrap</li>
+              <li>Sass</li>
               <li>HTML5 / CSS3</li>
             </ul>
           </motion.div>
