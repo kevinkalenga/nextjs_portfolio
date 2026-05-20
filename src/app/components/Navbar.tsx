@@ -20,9 +20,9 @@ const Navbar = () => {
   }
 
   const menuItems = [
-      {href: "/", label: "Home"},
-      {href: "/about", label: "About"},
-      {href: "/projects", label: "Projects"},
+      {href: "/", label: "Accueil"},
+      {href: "/about", label: "À propos"},
+      {href: "/projects", label: "Projets"},
       {href: "/blogs", label: "Blogs"},
       {href: "/contact", label: "Contact"},
   ]
