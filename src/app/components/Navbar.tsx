@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from 'next/link'
 import { usePathname } from "next/navigation";
 import { Bars3Icon, MoonIcon, SunIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { div } from "framer-motion/client";
+
 import { useTheme } from "../context/ThemeContext";
 
 
