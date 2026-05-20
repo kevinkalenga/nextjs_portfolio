@@ -3,7 +3,8 @@
 import { useState } from "react"
 import Link from 'next/link'
 import { usePathname } from "next/navigation";
-import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, MoonIcon, SunIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { div } from "framer-motion/client";
 
 
 const Navbar = () => {
@@ -55,7 +56,45 @@ const Navbar = () => {
                  }
                </button>
             </div>
+
+            {/* mobile menu button */}
+            <button 
+              onClick={toggleMobileMenu}
+              type="button"
+              className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors cursor-ppinter">
+              {
+                isMobileMenuOpen ? (<XMarkIcon className="w-6 h-6" />) : (<Bars3Icon className="w-6 h-6" />)
+              }
+            </button>
           </div>
+
+          {/* mobile menu */}
+          {
+            isMobileMenuOpen && (
+              <div className="md:hidden">
+                 <div className="py-4 space-y-4">
+                    {
+                      menuItems.map((item, index) => (
+                        <div key={index} onClick={toggleMobileMenu}>
+                           <Link href={item.href} className="block py-2 hover:text-primary transition-colors">{item.label}</Link>
+                        </div>
+                      ))
+                    }
+                    <div className="">
+                      <button className="flex items-center py-2 hover:text-primary transition-colors">
+                        {
+                          theme === "dark" ? (
+                              <><SunIcon className="w-5 h-5 mr-2" /> Light Mode</>
+                          ) : (
+                            <><MoonIcon className="w-5 h-5 mr-2" /> Dark Mode</>
+                          )
+                        }
+                      </button>
+                    </div>
+                 </div>
+              </div>
+            )
+          }
 
        </div>
     </nav>
