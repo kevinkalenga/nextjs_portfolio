@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description: "Application e-commerce full stack avec authentification et gestion des utilisateurs.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     githubLink: "https://github.com",
-    demoLink: "https://demo.com",
+    demoLink: "https://ecommerce-amel-shop-it-gilt.vercel.app/",
     image: "/projects/sac.jpg",
   },
 
