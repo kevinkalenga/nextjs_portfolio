@@ -1,4 +1,4 @@
-import { projects } from '@/src/contents/projects'
+import { projects } from '@/contents/projects'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'

@@ -1,10 +1,10 @@
 'use client'
 
-import { blogs } from '@/src/contents/blog'
+import { blogs } from '@/contents/blog'
 import Link from 'next/link'
 import { FaCalendarAlt, FaClock } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { fadeInUp, staggerContainer, cardHoverSmall } from '@/src/app/utils/animations'
+import { fadeInUp, staggerContainer, cardHoverSmall } from '@/app/utils/animations'
 
 export default function Blogs() {
   return (

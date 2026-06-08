@@ -1,4 +1,4 @@
-import { blogs } from '@/src/contents/blog'
+import { blogs } from '@/contents/blog'
 import Link from 'next/link'
 import React from 'react'
 import { FaCalendarAlt, FaClock } from 'react-icons/fa'
