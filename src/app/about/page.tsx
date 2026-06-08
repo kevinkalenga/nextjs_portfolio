@@ -9,7 +9,7 @@ import {
   staggerContainer, 
   cardHover, 
   cardHoverSmall 
-} from '@/src/app/utils/animations'
+} from '@/app/utils/animations'
 
 export default function About() {
   return (

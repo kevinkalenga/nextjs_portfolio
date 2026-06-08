@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { fadeInUp, fadeIn, slideInLeft, slideInRight } from '@/src/app/utils/animations'
+import { fadeInUp, fadeIn, slideInLeft, slideInRight } from '@/app/utils/animations'
 
 interface FormData {
   name: string;
