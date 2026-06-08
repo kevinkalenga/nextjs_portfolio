@@ -1,3 +1,6 @@
+
+import type { Transition } from "framer-motion";
+
 export const fadeInUp = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
@@ -26,13 +29,29 @@ export const staggerContainer = {
 
 export const cardHover = {
   whileHover: { scale: 1.05 },
-  transition: { type: "spring", stiffness: 300 }
-}
+  transition: {
+    type: "spring",
+    stiffness: 300,
+  } as Transition,
+};
+
+// export const cardHover = {
+//   whileHover: { scale: 1.05 },
+//   transition: { type: "spring", stiffness: 300 }
+// }
+
+// export const cardHoverSmall = {
+//   whileHover: { scale: 1.02 },
+//   transition: { type: "spring", stiffness: 300 }
+// }
 
 export const cardHoverSmall = {
   whileHover: { scale: 1.02 },
-  transition: { type: "spring", stiffness: 300 }
-}
+  transition: {
+    type: "spring",
+    stiffness: 300,
+  } as Transition,
+};
 
 export const pageTransition = {
   initial: { opacity: 0 },
