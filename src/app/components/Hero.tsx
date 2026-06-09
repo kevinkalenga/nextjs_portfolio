@@ -11,7 +11,7 @@ const Hero = () => {
              <Image src="/photo_kevin.jpg" alt="profile name" width={100} height={100} 
              className='rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary'/>
           </div>
-          <h1 className='text-4xl md:text-3xl font-semibold mb-6'>Bonjour, Je m'appel <span className='text-primary'>Kevin Kalenga</span></h1>
+          <h1 className='text-4xl md:text-3xl font-semibold mb-6'>Bonjour, Je m'appelle <span className='text-primary'>Kevin Kalenga</span></h1>
           <p className='text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8'>Développeur full stack | Passionné d'UI/UX | Contributeur Open Source</p>
           <div className='flex justify-center space-x-4 mb-8'>
             <Link href="https://github.com/kevinkalenga" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors'>
