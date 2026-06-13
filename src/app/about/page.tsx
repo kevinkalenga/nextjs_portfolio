@@ -97,7 +97,8 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Outils & autres</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
-              <li>Docker</li>
+              <li>Docker / Kubernetes</li>
+              <li>Terraform</li>
               <li>AWS</li>
               <li>CI/CD</li>
               <li>Agile / Scrum</li>
