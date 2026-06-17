@@ -47,8 +47,8 @@ export const projects: Project[] = [
     title: "Agence de voyage Laravel",
     description: "Plateforme de réservation de voyages avec gestion des destinations et offres.",
     technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
+    githubLink: "https://github.com/kevinkalenga/Travel_Ageancy",
+    demoLink: "https://travelageancy-production.up.railway.app/",
     image: "/projects/travel.jpg",
   },
   {
