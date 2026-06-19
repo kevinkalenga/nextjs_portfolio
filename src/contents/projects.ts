@@ -38,7 +38,7 @@ export const projects: Project[] = [
   {
     title: "Hôtel Booking System",
     description: "Application complète de réservation d’hôtel avec gestion des chambres et réservations.",
-    technologies: ["Laravel", "MySQL", "REST API", "Bootstrap"],
+    technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
     githubLink: "https://github.com/kevinkalenga/Hotel_Kazi",
     demoLink: "https://hotelkazi-production.up.railway.app/",
     image: "/projects/hotel.jpg",
