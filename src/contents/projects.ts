@@ -20,7 +20,7 @@ export const projects: Project[] = [
 
   {
     title: "Event Conference — Plateforme de gestion d’événements",
-    description: "Application web complète pour la gestion d’une conférence avec intervenants, sponsors, programmes, tickets et contenus événementiels.",
+    description: "Application web pour la gestion d’une conférence avec intervenants, programmes, tickets et contenus événementiels.",
     technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
     githubLink: "https://github.com/kevinkalenga/Event_Conference",
     demoLink: "https://eventconference-production.up.railway.app/",
