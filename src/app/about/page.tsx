@@ -156,7 +156,7 @@ export default function About() {
               Projets de formation et développement applicatif
             </h3>
             <p className="text-primary mb-2">
-              2024 - 2025 • Projets pratiques
+              2024 - 2026 • Projets pratiques
             </p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Développement d’applications web full stack (React / Node / Laravel)</li>
