@@ -136,7 +136,7 @@ export default function About() {
               Développeur Full Stack (Auto-formation)
             </h3>
             <p className="text-primary mb-2">
-              2023 - 2026 • Parcours autodidacte
+              2023 - aujourd'hui • Parcours autodidacte
             </p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Apprentissage intensif du développement web (frontend & backend)</li>
@@ -156,7 +156,7 @@ export default function About() {
               Projets de formation et développement applicatif
             </h3>
             <p className="text-primary mb-2">
-              2024 - 2026 • Projets pratiques
+              2024 - aujourd'hui • Projets pratiques
             </p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Développement d’applications web full stack (React / Node / Laravel)</li>
@@ -198,7 +198,7 @@ export default function About() {
       </h3>
 
       <p className="text-primary mb-2">
-        Studi • 2026 - 2027
+        Studi • 2025 - 2026
       </p>
 
       <p className="text-secondary">
