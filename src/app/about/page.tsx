@@ -140,7 +140,7 @@ export default function About() {
             </h3>
 
             <p className="text-primary mb-2">
-              2023 - aujourd'hui • Parcours autodidacte
+              2022 - aujourd'hui • Parcours autodidacte
             </p>
 
             <ul className="text-secondary list-disc list-inside space-y-2">
