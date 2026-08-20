@@ -29,7 +29,7 @@ export default function About() {
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
           Développeur Full Stack, je conçois des applications web modernes et performantes, 
           du front-end au back-end. Je m’attache à produire un code propre, maintenable et à
-           créer des interfaces centrées sur l’expérience utilisateur.
+          créer des interfaces centrées sur l’expérience utilisateur.
         </p>
       </motion.section>
 
@@ -45,6 +45,7 @@ export default function About() {
         >
           Compétences
         </motion.h2>
+
         <motion.div 
           className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           variants={staggerContainer}
@@ -58,6 +59,7 @@ export default function About() {
           >
             <FaCode className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+
             <ul className="text-secondary space-y-2">
               <li>React / Angular</li>
               <li>Redux Toolkit</li>
@@ -76,6 +78,7 @@ export default function About() {
           >
             <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Backend</h3>
+
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
               <li>Express</li>
@@ -95,6 +98,7 @@ export default function About() {
           >
             <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Outils & autres</h3>
+
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
               <li>Docker / Kubernetes</li>
@@ -108,7 +112,7 @@ export default function About() {
       </motion.section>
 
       {/* Experience Section */}
-         <motion.section 
+      <motion.section 
         className="mb-16"
         {...fadeIn}
         transition={{ delay: 0.4 }}
@@ -126,91 +130,98 @@ export default function About() {
           initial="initial"
           animate="animate"
         >
-
           <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">
-              Développeur Full Stack (Auto-formation)
+              Développeur Full Stack — Projets personnels & auto-formation
             </h3>
+
             <p className="text-primary mb-2">
               2023 - aujourd'hui • Parcours autodidacte
             </p>
+
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Apprentissage intensif du développement web (frontend & backend)</li>
-              <li>Réalisation de projets personnels full stack (React, Node.js, PHP)</li>
-              <li>Conception d’API REST et intégration de bases de données MySQL / MongoDB</li>
-              <li>Pratique des bonnes pratiques de code et architecture propre</li>
-              <li>Développement de compétences en frameworks modernes (Laravel, Symfony, Angular)</li>
+              <li>
+                Conception et développement de plusieurs applications web Full Stack
+                dans différents domaines.
+              </li>
+
+              <li>
+                Développement frontend avec React, Angular, TypeScript et Tailwind CSS.
+              </li>
+
+              <li>
+                Développement backend avec Node.js, Express, PHP, Laravel, Symfony
+                et Spring Boot.
+              </li>
+
+              <li>
+                Conception d’API REST, authentification et gestion des utilisateurs.
+              </li>
+
+              <li>
+                Intégration et gestion de bases de données MySQL et MongoDB.
+              </li>
+
+              <li>
+                Utilisation de Git/GitHub pour le versionnement et le suivi des projets.
+              </li>
+
+              <li>
+                Application de bonnes pratiques de développement et d’architecture
+                logicielle.
+              </li>
+
+              <li>
+                Développement continu de compétences DevOps avec Docker, Kubernetes,
+                Terraform, CI/CD et AWS.
+              </li>
             </ul>
           </motion.div>
+        </motion.div>
+      </motion.section>
 
+      {/* Education Section */}
+      <motion.section
+        {...fadeIn}
+        transition={{ delay: 0.6 }}
+      >
+        <motion.h2 
+          className="section-title"
+          {...fadeInUp}
+        >
+          Formation
+        </motion.h2>
+
+        <motion.div 
+          className="max-w-3xl mx-auto"
+          variants={staggerContainer}
+          initial="initial"
+          animate="animate"
+        >
           <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">
-              Projets de formation et développement applicatif
+              Titre RNCP Niveau 5 – Développeur Web & Web Mobile
             </h3>
-            <p className="text-primary mb-2">
-              2024 - aujourd'hui • Projets pratiques
-            </p>
-            <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Développement d’applications web full stack (React / Node / Laravel)</li>
-              <li>Mise en place d’authentification et gestion des utilisateurs</li>
-              <li>Création d’interfaces responsives et modernes avec Tailwind CSS</li>
-              <li>Utilisation de Git/GitHub pour versioning et collaboration</li>
-            </ul>
-          </motion.div>
 
+            <p className="text-primary mb-2">
+              Studi • 2025 - 2026
+            </p>
+
+            <p className="text-secondary">
+              Formation professionnalisante axée sur le développement d’applications web complètes,
+              couvrant le frontend, le backend et les bases de données, avec mise en pratique sur projets réels.
+            </p>
+          </motion.div>
         </motion.div>
       </motion.section>
-      {/* Education Section */}
-      
-        <motion.section
-  {...fadeIn}
-  transition={{ delay: 0.6 }}
->
-  <motion.h2 
-    className="section-title"
-    {...fadeInUp}
-  >
-    Formation
-  </motion.h2>
-
-  <motion.div 
-    className="max-w-3xl mx-auto"
-    variants={staggerContainer}
-    initial="initial"
-    animate="animate"
-  >
-
-    <motion.div 
-      className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-      variants={fadeInUp}
-      {...cardHoverSmall}
-    >
-      <h3 className="text-xl font-semibold mb-2">
-        Titre RNCP Niveau 5 – Développeur Web & Web Mobile
-      </h3>
-
-      <p className="text-primary mb-2">
-        Studi • 2025 - 2026
-      </p>
-
-      <p className="text-secondary">
-        Formation professionnalisante axée sur le développement d’applications web complètes,
-        couvrant le frontend, le backend et les bases de données, avec mise en pratique sur projets réels.
-      </p>
-    </motion.div>
-
-  </motion.div>
-</motion.section>
-    
-     
     </div>
   )
-} 
+}
