@@ -212,7 +212,7 @@ export default function About() {
             </h3>
 
             <p className="text-primary mb-2">
-              Studi • 2025 - 2026
+              Studi • 2024 - 2025
             </p>
 
             <p className="text-secondary">
