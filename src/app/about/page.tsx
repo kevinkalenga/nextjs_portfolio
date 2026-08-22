@@ -63,6 +63,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>React / Angular</li>
               <li>Redux Toolkit</li>
+              <li>next.js</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
               <li>Bootstrap</li>
