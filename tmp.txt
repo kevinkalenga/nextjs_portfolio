@@ -1,216 +1,36 @@
-'use client'
+RECHERCHE ALTERNANCE 2026-2027
+Actuellement étudiant en 3ème année du Bachelor Développeur Web et IA à l'Efrei, je suis à la recherche d'une opportunité d'alternance d'une durée de 12 mois, débutant en septembre 2026. 
+Mon rythme de formation est établi sur 1 semaine en formation et 2 semaines en entreprise. 
+Passionné par la technologie et rigoureux, je souhaite intégrer une équipe pour mettre en pratique mes compétences et contribuer à des projets concrets. Je cible prioritairement les postes suivants :
+Développeur Full Stack 
+Concepteur Développeur Web / Applications mobiles 
+Analyste programmeur 
+Lead Developer 
+DevOps 
+Je reste également très ouvert à toute autre opportunité (automatisation, data, administration système, etc.) dès lors que la mission correspond à mes compétences techniques et à mon envie d'apprendre.
+Mon parcours technique et professionnel :
+Stack technique : Python, JavaScript, PHP, HTML/CSS, C, et MySQL. 
+Expériences clés : J'ai notamment réalisé des missions d'automatisation via LLM et flux API, de conception UI, ainsi que de la gestion de systèmes informatiques et d'infrastructures (chez The Data Driven Company et Subsea 7). 
+Soft Skills : Adaptabilité, autonomie, esprit d'analyse et sens du service. 
+Vous trouverez mon parcours complet et détaillé dans CV joint à cette publication.
+Si vous avez une opportunité ou si vous connaissez quelqu'un qui recrute, n'hésitez pas à me contacter en message privé ou à partager ce post pour m'aider dans mes recherches. Je serais ravi d'échanger sur vos besoins.
+Merci par avance pour votre aide et votre soutien.
+#Alternance #DeveloppeurFullStack #Efrei #RechercheAlternance #DevWeb #DevOps #Python #JavaScript #Tech #Recrutement 
 
-import { FaCode, FaLaptopCode, FaGraduationCap } from 'react-icons/fa'
-import { motion } from 'framer-motion'
-import { 
-  fadeInUp, 
-  fadeInDown, 
-  fadeIn, 
-  staggerContainer, 
-  cardHover, 
-  cardHoverSmall 
-} from '@/app/utils/animations'
 
-export default function About() {
-  return (
-    <div className="container max-w-7xl mx-auto py-12">
-      <motion.h1 
-        className="text-4xl font-bold mb-8 text-center"
-        {...fadeInDown}
-      >
-        À propos de Moi
-      </motion.h1>
-      
-      {/* Bio Section */}
-      <motion.section 
-        className="mb-16"
-        {...fadeInUp}
-      >
-        <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          Développeur Full Stack, je conçois des applications web modernes et performantes, 
-          du front-end au back-end. Je m’attache à produire un code propre, maintenable et à
-           créer des interfaces centrées sur l’expérience utilisateur.
-        </p>
-      </motion.section>
-
-      {/* Skills Section */}
-      <motion.section 
-        className="mb-16"
-        {...fadeIn}
-        transition={{ delay: 0.2 }}
-      >
-        <motion.h2 
-          className="section-title"
-          {...fadeInUp}
-        >
-          Compétences
-        </motion.h2>
-        <motion.div 
-          className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-          variants={staggerContainer}
-          initial="initial"
-          animate="animate"
-        >
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHover}
-          >
-            <FaCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Frontend</h3>
-            <ul className="text-secondary space-y-2">
-              <li>React / Angular</li>
-              <li>Redux Toolkit</li>
-              <li>TypeScript</li>
-              <li>Tailwind CSS</li>
-              <li>Bootstrap</li>
-              <li>Sass</li>
-              <li>HTML5 / CSS3</li>
-            </ul>
-          </motion.div>
-          
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHover}
-          >
-            <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Backend</h3>
-            <ul className="text-secondary space-y-2">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Php</li>
-              <li>Laravel</li>
-              <li>Symfony</li>
-              <li>Spring boot</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-            </ul>
-          </motion.div>
-          
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHover}
-          >
-            <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Outils & autres</h3>
-            <ul className="text-secondary space-y-2">
-              <li>Git / GitHub</li>
-              <li>Docker / Kubernetes</li>
-              <li>Terraform</li>
-              <li>AWS</li>
-              <li>CI/CD</li>
-              <li>Agile / Scrum</li>
-            </ul>
-          </motion.div>
-        </motion.div>
-      </motion.section>
-
-      {/* Experience Section */}
-         <motion.section 
-        className="mb-16"
-        {...fadeIn}
-        transition={{ delay: 0.4 }}
-      >
-        <motion.h2 
-          className="section-title"
-          {...fadeInUp}
-        >
-          Expérience
-        </motion.h2>
-
-        <motion.div 
-          className="max-w-3xl mx-auto space-y-8"
-          variants={staggerContainer}
-          initial="initial"
-          animate="animate"
-        >
-
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHoverSmall}
-          >
-            <h3 className="text-xl font-semibold mb-2">
-              Développeur Full Stack (Auto-formation)
-            </h3>
-            <p className="text-primary mb-2">
-              2023 - aujourd'hui • Parcours autodidacte
-            </p>
-            <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Apprentissage intensif du développement web (frontend & backend)</li>
-              <li>Réalisation de projets personnels full stack (React, Node.js, PHP)</li>
-              <li>Conception d’API REST et intégration de bases de données MySQL / MongoDB</li>
-              <li>Pratique des bonnes pratiques de code et architecture propre</li>
-              <li>Développement de compétences en frameworks modernes (Laravel, Symfony, Angular)</li>
-            </ul>
-          </motion.div>
-
-          <motion.div 
-            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-            variants={fadeInUp}
-            {...cardHoverSmall}
-          >
-            <h3 className="text-xl font-semibold mb-2">
-              Projets de formation et développement applicatif
-            </h3>
-            <p className="text-primary mb-2">
-              2024 - aujourd'hui • Projets pratiques
-            </p>
-            <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Développement d’applications web full stack (React / Node / Laravel)</li>
-              <li>Mise en place d’authentification et gestion des utilisateurs</li>
-              <li>Création d’interfaces responsives et modernes avec Tailwind CSS</li>
-              <li>Utilisation de Git/GitHub pour versioning et collaboration</li>
-            </ul>
-          </motion.div>
-
-        </motion.div>
-      </motion.section>
-      {/* Education Section */}
-      
-        <motion.section
-  {...fadeIn}
-  transition={{ delay: 0.6 }}
->
-  <motion.h2 
-    className="section-title"
-    {...fadeInUp}
-  >
-    Formation
-  </motion.h2>
-
-  <motion.div 
-    className="max-w-3xl mx-auto"
-    variants={staggerContainer}
-    initial="initial"
-    animate="animate"
-  >
-
-    <motion.div 
-      className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
-      variants={fadeInUp}
-      {...cardHoverSmall}
-    >
-      <h3 className="text-xl font-semibold mb-2">
-        Titre RNCP Niveau 5 – Développeur Web & Web Mobile
-      </h3>
-
-      <p className="text-primary mb-2">
-        Studi • 2025 - 2026
-      </p>
-
-      <p className="text-secondary">
-        Formation professionnalisante axée sur le développement d’applications web complètes,
-        couvrant le frontend, le backend et les bases de données, avec mise en pratique sur projets réels.
-      </p>
-    </motion.div>
-
-  </motion.div>
-</motion.section>
-    
-     
-    </div>
-  )
-} 
+///////////////////////////////////////////////////////////////////////////////////////////////// 
+RECHERCHE D’ALTERNANCE – DÉVELOPPEMENT WEB / CONCEPTION D’APPLICATIONS 💻
+Bonjour à toutes et à tous,
+Je fais appel à mon réseau ! 🙏
+Après avoir obtenu mon titre de Développeur Web et Web Mobile, je poursuis mon parcours avec une formation Concepteur Développeur d’Applications (Bac+3) à partir d’octobre 2026.
+🎯 Je suis donc activement à la recherche d’une entreprise pour mon alternance, idéalement sur Rennes et ses alentours / en Bretagne.
+Je sais que la période n’est pas forcément la plus simple pour trouver une alternance, mais je ne lâche rien et je compte aussi sur la force du réseau. 💪
+👉 Vous travaillez dans une entreprise qui recherche un alternant développeur ?
+👉 Vous connaissez quelqu’un dans une entreprise susceptible d’être intéressée ?
+👉 Vous avez simplement un contact à qui je pourrais transmettre mon CV ?
+N’hésitez pas à me contacter, à identifier une personne en commentaire ou à partager cette publication. Même une simple mise en relation peut faire la différence !
+💻 Compétences : PHP, Symfony, JavaScript, HTML/CSS, SQL/MySQL, Git/GitHub…
+🌐 Projet réalisé : sosfaonsbretagne.fr
+📅 Rentrée : octobre 2026
+Merci énormément à toutes les personnes qui prendront quelques secondes pour partager ou faire circuler ma recherche. 🙏
+#Alternance #DeveloppeurWeb #Developpeur #Symfony #PHP #Informatique #Rennes #Bretagne #RechercheAlternance #CDA
