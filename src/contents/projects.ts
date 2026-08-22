@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description: "Plateforme e-commerce complète avec gestion des produits, panier et commandes.",
     technologies: ["React", "Tailwind", "Express", "MongoDB"],
     githubLink: "https://github.com/kevinkalenga/Shopito_Project",
-    demoLink: "https://shopito-frontend-git-main-kevin-kalengas-projects.vercel.app/",
+    demoLink: "https://shopito-frontend-chi.vercel.app/",
     image: "/projects/iphone.jpg",
   },
   {
