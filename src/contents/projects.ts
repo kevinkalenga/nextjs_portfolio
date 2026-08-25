@@ -28,12 +28,12 @@ export const projects: Project[] = [
   },
  
   {
-    title: "E-commerce Laravel #2",
-    description: "Plateforme e-commerce avec dashboard admin et gestion des utilisateurs.",
+    title: "Plateforme de gestion immobilere",
+    description: "Plateforme immobilière complète avec gestion des biens, des agents, des utilisateurs, des recherches immobilières et un dashboard d’administration.",
     technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    image: "/projects/restaurant.jpg",
+    githubLink: "https://github.com/kevinkalenga/Immo_Agency_Kazi",
+    demoLink: "https://immoagencykazi-production.up.railway.app/",
+    image: "/projects/immo.jpeg",
   },
   {
     title: "Hôtel Booking System",
