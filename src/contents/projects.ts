@@ -56,7 +56,7 @@ export const projects: Project[] = [
     description: "Application e-commerce avec gestion avancée du back-office et des produits.",
     technologies: ["Symfony", "PHP", "Doctrine", "MySQL"],
     githubLink: "https://github.com",
-    demoLink: "https://demo.com",
+    demoLink: "#",
     image: "/projects/pc.jpg",
   },
   {
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     description: "Plateforme e-commerce moderne avec frontend Angular et backend Spring Boot.",
     technologies: ["Angular", "Java", "Spring Boot", "MySQL"],
     githubLink: "https://github.com",
-    demoLink: "https://demo.com",
+    demoLink: "#",
     image: "/projects/shoose.jpg",
   },
 ];
