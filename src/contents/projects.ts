@@ -43,14 +43,17 @@ export const projects: Project[] = [
     demoLink: "https://hotelkazi-production.up.railway.app/",
     image: "/projects/hotel.jpg",
   },
+  
+  
   {
-    title: "Agence de voyage Laravel",
-    description: "Plateforme de réservation de voyages avec gestion des destinations et offres.",
-    technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
-    githubLink: "https://github.com/kevinkalenga/Travel_Ageancy",
-    demoLink: "https://travelageancy-production.up.railway.app/",
-    image: "/projects/travel.jpg",
+    title: 'Vite et Gourmand',
+    description: "Site de restauration rapide avec présentation des menus, gestion des commandes et des produits, et interface d'administration intuitive",
+    technologies: ["Laravel", "MySQL", "Blade", "Bootstrap", "Javascript"],
+    githubLink: 'https://github.com/kevinkalenga/restaurant_laravel_websolution',
+    demoLink: 'https://viteetgourmand.fr/',
+    image: '/projects/restau.jpg',
   },
+  
   {
     title: "E-commerce Symfony",
     description: "Application e-commerce avec gestion avancée du back-office et des produits.",
@@ -59,14 +62,16 @@ export const projects: Project[] = [
     demoLink: "#",
     image: "/projects/pc.jpg",
   },
-  {
-        title: 'Agence Immobilière',
-        description: 'Agence Immobilière avec fibase pour la gestion des données.',
-        technologies: ['React', 'Firebase'],
-        githubLink: 'https://github.com/kevinkalenga/realtor_website',
-        demoLink: 'https://realtor-website-sandy.vercel.app/',
-        image: '/projects/immob.jpg',
+ 
+   {
+    title: "Agence de voyage Laravel",
+    description: "Plateforme de réservation de voyages avec gestion des destinations et offres.",
+    technologies: ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "Hibernate", "Maven", "React", "JavaScript", "HTML", "CSS", "Bootstrap", "MySQL", "REST API"],
+    githubLink: "https://github.com",
+    demoLink: "#",
+    image: "/projects/travel.jpg",
   },
+  
   {
     title: "E-commerce Full Stack Java + Angular",
     description: "Plateforme e-commerce moderne avec frontend Angular et backend Spring Boot.",

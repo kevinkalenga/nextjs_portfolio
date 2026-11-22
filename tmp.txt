@@ -33,4 +33,5 @@ N’hésitez pas à me contacter, à identifier une personne en commentaire ou �
 🌐 Projet réalisé : sosfaonsbretagne.fr
 📅 Rentrée : octobre 2026
 Merci énormément à toutes les personnes qui prendront quelques secondes pour partager ou faire circuler ma recherche. 🙏
-#Alternance #DeveloppeurWeb #Developpeur #Symfony #PHP #Informatique #Rennes #Bretagne #RechercheAlternance #CDA
+#Alternance #DeveloppeurWeb #Developpeur #Symfony #PHP #Informatique #Rennes #Bretagne #RechercheAlternance #CDA 
+
